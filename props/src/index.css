@@ -1,0 +1,26 @@
+body{
+    padding: 20px;
+    background-color: palevioletred;
+    display: flex;
+    
+}
+.student{
+    border: 2px solid black;
+    width: 200px;
+    padding: 20px;
+    font-weight: 600;
+    background-color: pink;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    margin: 10px;
+}
+.student p{
+    margin: 0;
+}
+
+.student img{
+    width: 200px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-radius: 20px;
+}
