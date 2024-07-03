@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+
+.welcome-message{
+    background-color: darkcyan;
+    font-size: 200px;
+    padding: 20px;
+    text-align: center;
+    color: cyan;
+}
+.stfu{
+    background-color: red;
+    font-size: 200px;
+    padding: 20px;
+    text-align: center;
+    color: orange;
+}
