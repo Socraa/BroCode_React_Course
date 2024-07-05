@@ -63,6 +63,3 @@ function MyComponent(){
 
 }
 export default MyComponent
-//setName example explanation:
-// the value of the input is set to {name}, when you change the value of the input(onChange will activate), 
-//the value(which is the name) will also be change. so the name in <p> will also be change
