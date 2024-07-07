@@ -1,0 +1,96 @@
+body{
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.toDoList{
+    background-color: darkcyan;
+    border: 2px solid;
+    text-align: center;
+    margin-top: 100px;
+    width: auto;
+    padding: 20px;
+}
+h1{
+    font-size: 4rem;
+
+}
+
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.add-button{
+    background-color: cyan;
+    color: black;
+    margin-left: 10px;
+
+}
+
+.add-button:hover{
+    background-color: rgb(9, 192, 192);
+}
+
+.add-button:active{
+    transform: scale(1.03);
+}
+
+.delete-button{
+    background-color: darkcyan;
+}
+
+.delete-button:hover{
+    background-color: rgb(4, 95, 95);
+}
+
+.move-button{
+    background-color: lightblue;
+}
+
+.move-button:hover{
+    background-color: rgb(45, 109, 131);
+}
+
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    color: darkcyan;
+
+}
+
+ol{
+    padding: 0;
+}
+
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 3px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.text{
+    flex: 1;
+}
+
+.delete-button, .move-button{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
